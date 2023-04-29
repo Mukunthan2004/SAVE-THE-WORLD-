@@ -1,0 +1,127 @@
+.head{
+    font-size: 5rem;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card{
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+    font-family: Inter,Arial,Helvetica,sans-serif;
+}
+.card__header,
+.card__body{
+    padding: 2rem 3rem;
+}
+.card__primary .card__header{
+    background: #00d9ff;
+    color: white;
+}
+.card__secondary .card__header{
+    background:#2584ff;
+    color: white;
+}
+.pricing{
+    font-size: 3rem;
+}
+.offer{
+    background: #02cdf1;
+    border-radius: 20px;
+    padding: 0.1rem 0.9rem;
+}
+.card__body ul li{
+    list-style: none;
+    margin-bottom:2rem;
+    font-size: 1.3rem;
+}
+.card__body ul li i{
+    color: rgb(2, 255, 2);
+}
+.hello{
+    margin: 2rem 3rem;
+}
+.btn{
+    font-size: 1.3rem;
+    padding: 0.8rem 2rem ;
+    width: 100%;
+    border-radius: 30px ;
+    border-color: #490096;
+    background-color: white;
+    color: #490096;
+}
+.btn:hover{
+    color: white;
+    background-color: #490096;
+}
+@media screen and (max-width:1400px) {
+    .container{
+        display:flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+    .hid1{
+        display: none;
+    }    
+}
+
+@media screen and (max-width:954px) {
+    .container{
+        width: 80%;
+    }
+    .hid2{
+        display:none
+    }
+    .grid3{
+        padding-left: 80px;
+    }
+}
+@media screen and (max-width:618px) {
+    .container{
+        width: auto;
+    }
+    .hid3{
+        display: none;
+    }
+    .hid4{
+        display: none;
+    }
+    .grid3{
+        padding-left: 150px;
+    }
+}
+.hello:hover{
+    transform: scale(1.08);
+    transition: transform 0.3s;
+}
+.ad{
+    font-size: 1.5rem;
+    width: auto;
+    text-align: center;
+    font-family: Inter,Arial,Helvetica,sans-serif;
+    color: #909090;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.trusted{
+    color: #666;
+    font-size: 90px;
+    text-align: center;
+}
+.ad1{
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+}
+.btn1{
+    width: 40%;
+}
+.btn1:hover{
+    background:blue ;
+    color: white;
+}
